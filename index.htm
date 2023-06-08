@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="desktop-instagram.css">
+    <link rel="stylesheet" href="instagram.css">
+</head>
+<body>
+    <div class="item Instagram desktopMode light" id="item8">
+        <div class="top-item_right">
+            <div class="chooseTheme">
+                <li>Light theme <input type="checkbox" class="toggle toggleTheme" onclick="changeTheme()" /> Dark theme</li>
+                <li>DeskTop mode<input type="checkbox" class="toggle toggleChangeMode" onclick="changeMode()" /> Mobile mode </li>
+            </div>
+        </div>
+        <div class="desktop">
+            <input type="radio" name="changePage" id="changeMassagePage">
+            <input type="radio" name="changePage" id="changeHomePage">
+            <input type="radio" name="changePage" id="changeProfilePage">
+            <div class="left-des-Mode">
+                <img src="./img/instagram/instagram-logo-black.png"class="displayNone light-navBottom" width="150px" alt="">
+                <img src="./img/instagram/instagram-logo.png"class="dark-navBottom" width="150px" alt="">
+                <ul class="menuInstagram">
+                    <label for="changeHomePage"><li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - home.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/home.svg" class="displayNone light-navBottom"alt=""> Home</li></label>
+                    <li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - search.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/Search.svg" class="displayNone light-navBottom"alt=""> Search</li>
+                    <li class="items-InstaMenu"> <img src="./img/instagram/SVG/explore - white.svg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/explore.svg" class="displayNone light-navBottom"alt=""> Explore</li>
+                    <li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - Reels.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/reels.svg" class="displayNone light-navBottom"alt=""> Reels</li>
+                    <label for="changeMassagePage"><li class="items-InstaMenu have-notification"> <span style="padding: 2px;">1</span><img src="./img/instagram/Massage Icon.png"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/Massage.svg" class="displayNone light-navBottom"alt=""> Massages</li></label>
+                    <li class="items-InstaMenu have-notification"><span></span> <img src="./img/instagram/SVG/heart - white.svg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/heart.svg" class="displayNone light-navBottom"alt=""> Notifications</li>
+                    <li class="items-InstaMenu"> <img src="./img/instagram/navBottom Icons - addPost.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/creat.svg" class="displayNone light-navBottom"alt=""> Creat</li>
+                    <label for="changeProfilePage"><li class="items-InstaMenu"> <img src="./img/chrome/account.jpg"  class="user-image-navBottom" alt=""> Profile</li></label>
+                </ul>
+            </div>
+            <div class="center-des-Mode">
+                <div class="instagram-top-Icons">
+                    <div class="instagramIcns-left"><img src="./img/instagram/instagram-logo.png"class="dark-navBottom" width="150px" alt=""><img src="./img/instagram/instagram-logo-black.png"class="displayNone light-navBottom" width="150px" alt=""></div>
+                    <div class="instagramIcns-right">
+                        <svg class="" width="27" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve"><style type="text/css">.like-post{fill:transparent;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;transition: .1s;}</style><g transform="translate(1.4065934065934016 1.4065934065934016) scale(2.81 2.81)"><path class="like-post" d="M31.1,19.2c-3.3,0-6.4,1.3-8.7,3.6s-3.6,5.4-3.6,8.7s1.3,6.4,3.6,8.7l22.6,22.6l22.6-22.6c2.3-2.3,3.6-5.4,3.6-8.7s-1.3-6.4-3.6-8.7l0,0c-2.3-2.3-5.4-3.6-8.7-3.6c-3.3,0-6.4,1.3-8.7,3.6l-5.2,5.2l-5.2-5.2C37.5,20.5,34.4,19.2,31.1,19.2z"/></g></svg>
+                        <label class="pointer" for="changeMassagePage"><img src="./img/instagram/Massage Icon.png"class="dark-navBottom"  width="25px" height="25px" alt=""><img src="./img/instagram/SVG/Massage.svg"class="displayNone light-navBottom"  width="25px" height="25px" alt=""><span style="color: #fff !important;" >1</span></label>
+                    </div>
+                </div>
+                <div class="storySection">
+                    <div class="story">
+                        <img class="user-image" src="./img/chrome/account.jpg">
+                        <span style="color: #fff !important;">+</span>
+                        <p>Your Story</p>
+                    </div>
+                </div>
+                
+                <div class="posts-section" id="postsSection">
+                </div>
+            </div>
+            <div class="right-des-Mode">
+                <div class="sugested"><img class="user-image" src="./img/chrome/account.jpg"><p class="user-name" style="font-size: 15px; padding: 0 5px; color: #ffffff;">mmdrza.2007</p> <a href="#" >Profile </a></div>
+                <h4>Suggested for You</h4>
+                <ul>
+                    <li>About</li>
+                    <li>Help</li>
+                    <li>Prees</li>
+                    <li>API</li>
+                    <li>Jobs</li>
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Locations</li>
+                    <li>Language</li>
+                    <li>Meta Verified</li>
+                    <li>&copy; 2023 Instagram From MohamadReza Sadati</li>
+                </ul>
+            </div>
+            <div class="Massage-insta">
+                <div class="topMassage-insta"><label id="backToHome" class="pointer" for="changeHomePage"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 800 800" style="enable-background:new 0 0 800 800;fill: #fff; width: 30px;" xml:space="preserve" ><path d="M300.8,721.3c20.1,20.1,52.7,20.1,72.8,0c20.1-20.1,20.1-52.7,0-72.8L175.8,450.7l572.8-0.1c28.4,0,51.5-23,51.5-51.5   c0-28.4-23-51.5-51.5-51.5l-572.8,0.1l197.8-197.8c20.1-20.1,20.1-52.7,0-72.8c-10.1-10-23.2-15.1-36.4-15.1   c-13.2,0-26.3,5-36.4,15.1L15.1,362.8C5.4,372.5,0,385.6,0,399.2c0,13.7,5.4,26.7,15.1,36.4L300.8,721.3z"></path></svg> </label><span> @mmdrza.2007</span><span id="addPost" style="color: #fff !important;">+</span> </div>
+                <div class="searchDirect"><input type="text" class="searchInDirects" placeholder="Search In Your Direct!"><img src="./img/chrome/Search-Icon.svg" alt=""></div>
+                <div class="OnlinesMassage-insta">
+                    <div class="online">
+                        <div class="onlineImage"><img class="user-image" src="./img/chrome/account.jpg" alt=""> <span class="onlineUser"></span></div>
+                        <p>mmdrza.2007</p>
+                        </div>
+                </div>
+                <div class="directsMassage-insta">
+                    <div class="topOfDirectsMassages"><h3>Massages</h3> <a href="#">Requests</a></div>
+                </div>
+            </div>
+            <div class="profilePage">
+                <div class="ProfileDetaile">
+                    <div class="LeftProDeta">
+                        <img class="user-image" width="100" src="./img/chrome/account.jpg"></div>
+                    <div class="RightProDeta">
+                        <div class="profileEdit">
+                            <p class="user-name" >mmdrza.2007</p>
+                            <button>Edit Profile</button>
+                            <button>Ad Tools</button>
+                            <img src="./img/instagram/SVG/Setting - white.svg"  class="pointer dark-navBottom" alt=""><img src="./img/instagram/SVG/Setting.svg" class="displayNone pointer light-navBottom"alt="">
+                        </div>
+                        <div class="profileFollowers">
+                            <div class="postsNumber"><span>0</span><p>Posts</p></div>
+                            <div class="followers"><span>37</span><p>Followers</p></div>
+                            <div class="following"><span>111</span><p>Following</p></div>
+                        </div>
+                        <div class="profileCaption">
+                            <p class="user-name" style="font-size: 17px;">mmdrza.2007</p>
+                            <p class="profileCaptions"style="font-size: 13px;">OrdibeHeshT - 86 <br>
+                                Living in Sari City <br>
+                                Front end developer💻 <br>
+                                Web Designer🌐</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ProfileDetaile MobileVersion">
+                    <div class="topProdeta">
+                        <div class="usersProdeta"><p class="user-name" >mmdrza.2007</p><img src="./img/instagram/SVG/arrow.svg" width="15"style="rotate: 180deg;" class="displayNone light-navBottom"alt=""><img src="./img/instagram/SVG/arrow - white.svg" width="15" style="rotate: 180deg;" class="dark-navBottom" alt=""></div>
+                        <div class="ProdetaIcons">
+                            <img src="./img/instagram/navBottom Icons - addPost.jpg" width="30" class="dark-navBottom" alt=""><img src="./img/instagram/SVG/creat.svg" width="30" class="displayNone light-navBottom"alt="">
+                            <img src="./img/instagram/SVG/Setting - white.svg" width="30" class="pointer dark-navBottom" alt=""><img src="./img/instagram/SVG/Setting.svg" width="30" class="displayNone pointer light-navBottom"alt="">
+                        </div>
+                    </div>
+                    <div class="ProDeta">
+                        <img class="user-image" width="100"  src="./img/chrome/account.jpg">
+                        <div class="profileFollowers">
+                                <div class="postsNumber"><span>0</span><p>Posts</p></div>
+                                <div class="followers"><span>37</span><p>Followers</p></div>
+                                <div class="following"><span>111</span><p>Following</p></div>
+                            </div>
+                        </div>
+                    <div class="CaptionProDeta">
+                        <div class="profileCaption">
+                            <p class="user-name" style="font-size: 17px;">mmdrza.2007</p>
+                            <p class="profileCaptions"style="font-size: 13px;">OrdibeHeshT - 86 <br>
+                                Living in Sari City <br>
+                                Front end developer💻 <br>
+                                Web Designer🌐</p>
+                        </div>
+                        <div class="CapProDetabutton">
+                            <button>Edit Profile</button>
+                            <button>Share Profile</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="Hilightes storySection">
+                    <div class="Hilight">
+                        <div class="Hilight-pic"><img src="./img/instagram/posts/learn-steps-webapp-min.png" alt=""></div>
+                        <p class="Hilight-name">mmdrza Hilight 1</p>
+                    </div>
+                    <div class="Hilight">
+                        <div class="Hilight-pic"><img src="./img/instagram/posts/memari-steps-min.png" alt=""></div>
+                        <p class="Hilight-name">mmdrza Hilight 2</p>
+                    </div>
+                    <div class="Hilight">
+                        <div class="Hilight-pic"><img src="./img/instagram/SVG/Plus.svg" style="background-color: #fcfcfc;" ></div>
+                        <p class="Hilight-name">Add Hilight</p>
+                    </div>
+                </div>
+                <div class="ProfilePost"></div>
+            </div>
+            <div class="navBottom-instagram">
+                <label for="changeHomePage"><img src="./img/instagram/navBottom Icons - home.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/home.svg" class="displayNone light-navBottom"alt=""></label>
+                <img src="./img/instagram/navBottom Icons - search.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/Search.svg" class="displayNone light-navBottom"alt="">
+                <img src="./img/instagram/navBottom Icons - addPost.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/creat.svg" class="displayNone light-navBottom"alt="">
+                <img src="./img/instagram/navBottom Icons - Reels.jpg"  class="dark-navBottom" alt=""><img src="./img/instagram/SVG/reels.svg" class="displayNone light-navBottom"alt="">
+                <label for="changeProfilePage"><img src="./img/chrome/account.jpg"  class="user-image-navBottom" alt=""></label>
+            </div>
+        </div>
+    </div>
+    <script src="./dataUsers.js"></script>
+    <script src="./instagram.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+.light ,.light .instagram-top-Icons , .light .navBottom-instagram ,.light .Massage-insta ,.light .direct
+,.light .OnlinesMassage-insta::-webkit-scrollbar-track , .light  .storySection::-webkit-scrollbar-track ,
+.light .OnlinesMassage-insta ,
+.light .bottomOfStory ,
+.Instagram.light{
+    background: #fff !important;
+}
+.light .top-item_right{
+
+    background-color: #ffffff;
+}
+.light p , .light span {
+    color: #000 !important;
+}
+.light h3 ,.light  h4 ,.light .profileEdit button{
+    color: #333 !important;
+}
+.light .like-post .st0{
+    stroke: #000;
+}
+.light .right-post svg , .light #backToHome svg{
+    fill: #000 !important;
+}
+.light .right-post svg{
+    transform: rotate(90deg);
+}
+.light .dark-navBottom{
+    display: none;
+}
+.light .light-navBottom{
+    display: block !important;
+}
+.displayNone{
+    display: none;
+}
+.light .searchDirect{
+    background: #eee !important;
+}
+.light .onlineUser{
+    border-color:#fff ;
+}
+.light .profileCaptions{
+    color: #cecece;
+}
+.light .direct{
+    border-color:#ccc ;
+}
+
+.light .items-InstaMenu{
+    color: #000 !important;
+}
+.light .items-InstaMenu:hover {
+    background-color: #eee !important;
+}
+
+.light.desktopMode .storyFile{
+    box-shadow: 0 0 10px 1000px #ffffff;
+}
+
+.light .have-notification span{
+    border-color: #fff;
+}
+
+.light .bottomOfStory input{
+    border-color: #444;
+    color: #444;
+}
+.light .lightOrDark ,.light .desktopOrMobile ,.light .chooseTheme ,.light .CapProDetabutton button {
+    color: #000;
+}
+
+.light  .sugested .followed{
+    color: #757778 !important;
+}
+
+.right-des-Mode ul{
+    color: #919191b6;
+    border-color: #919191b6;
+}
+    /******* desktopMode *******/
+.desktopMode{
+    /* display: flex; */
+}.desktop{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    position: relative;
+}
+.desktopMode h4{
+    color: #ccc;
+}
+
+.desktopMode .ProfileDetaile{
+    display: flex;
+}
+.desktopMode .ProfileDetaile.MobileVersion{
+    display: none;
+}
+.desktopMode .mobile{display: none;}
+.desktopMode .storySection{
+    width: 565px;
+    padding-top: 15px !important;
+}
+.desktopMode .left-des-Mode{
+    display: block;
+}
+.desktopMode .profileFollowers >div{
+    display: block;
+}
+.left-des-Mode , .right-des-Mode{
+    width: 23%;
+    display: none ;
+}
+
+.desktopMode .left-des-Mode{
+    position: fixed;
+    text-align: left;
+    padding: 65px 20px;
+    height: 100%;
+    border-right: 1px solid #ccc;
+}
+.desktopMode .center-des-Mode{
+    width: 50% !important;
+    padding: 50px;
+    padding-left: 400px;
+    overflow:visible;
+}
+.center-des-Mode{ 
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+.desktop .menuInstagram{
+    margin: 30px 10px;
+}
+.items-InstaMenu:hover{
+    background-color: #222;
+}
+.items-InstaMenu:hover img ,.items-InstaMenu:hover span {
+    transform: scale(1.2);
+}
+.items-InstaMenu{
+    width: 170px;
+    margin: 10px 30px ;
+    display: flex;
+    gap: 15px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 900;
+    color: #fff;
+    font-size: 18px;
+    transition: .3s;
+    background-color: transparent;
+    border-radius: 15px;
+    align-items: center;
+    position: relative;
+}
+.items-InstaMenu > img{
+    width: 25px;
+    transition: .3s;
+}
+.have-notification span{
+    width: 10px;
+    transition: .3s;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    border: 1px solid #000;
+    position: absolute;
+    top: 5px;
+    left: 32px;
+    display: flex;
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: #fff !important;
+}
+.chooseTheme {
+    display: flex;
+    color: #fff;
+    gap: 5px;
+    white-space: nowrap;
+    align-items: center;
+}
+.desktopMode .storyFile{
+    box-shadow: 0 0 10px 1000px #000000;
+}
+
+.desktopMode .navBottom-instagram{
+    display: none;
+}
+.desktopMode .right-des-Mode{
+    padding-top: 130px;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    text-align: left;
+}
+.sugested{
+    width: 200px;
+    font-size: 15px !important;
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+}
+.sugested a{
+    font-size: 12px;
+    color: #0f9bf6;
+    position: relative;
+    right: -25px;
+}
+.sugested .followed{
+    color: #cecece;
+    text-decoration: underline;
+}
+.right-des-Mode ul{
+    color: #7a7a7af0;
+    font-size: 11px;
+    position: absolute;
+    top:  530px;
+}
+.right-des-Mode li{
+    float: left;
+    border-right: 1px solid #7a7a7af0;
+    display: inline-block;
+    margin: 2px 0 ;
+    cursor: pointer;
+    transition: .15s;
+    padding: 0 2px;
+}
+.right-des-Mode li:hover{
+    color: #0f9bf6;
+
+}
+.right-des-Mode li:nth-child(10) ,
+.right-des-Mode li:last-child{
+    border-right: 0px none;
+}
+.right-des-Mode li:last-child{
+    margin: 20px 0;
+}
